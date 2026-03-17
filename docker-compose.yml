@@ -1,0 +1,27 @@
+services:
+  abelfinance:
+    image: mayswind/ezbookkeeping:latest
+    container_name: abelfinance
+    restart: unless-stopped
+    ports:
+      - "8085:8080"
+    volumes:
+      - abelfinance-data:/ezbookkeeping/data
+      - abelfinance-storage:/ezbookkeeping/storage
+      - abelfinance-log:/ezbookkeeping/log
+    environment:
+      # Override config via environment variables
+      # All config options can be overridden with EBK_{SECTION}_{KEY} format
+      - EBK_SERVER_DOMAIN=plan.abelchiquetti.com
+      - EBK_SERVER_ROOT_URL=https://plan.abelchiquetti.com/
+      - EBK_SECURITY_SECRET_KEY=${SECRET_KEY}
+    healthcheck:
+      test: [ "CMD", "wget", "-q", "--spider", "http://localhost:8080/api/ping.json" ]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+volumes:
+  abelfinance-data:
+  abelfinance-storage:
+  abelfinance-log:
