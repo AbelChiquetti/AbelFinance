@@ -137,7 +137,7 @@
             "clearTransactionsInAccountTip": "You CANNOT undo this action. This will clear your transactions data in {account}. Please enter your current password to confirm.",
             "accountActivationAndResendValidationEmailTip": "Посилання для активації облікового запису було надіслано на вашу електронну адресу: {email}. Якщо ви не отримали лист, введіть пароль ще раз і натисніть кнопку нижче, щоб надіслати лист повторно.",
             "resendValidationEmailTip": "Якщо ви не отримали лист, введіть пароль ще раз і натисніть кнопку нижче, щоб надіслати лист повторно на адресу: {email}",
-            "oauth2bindTip": "You're signing in to the {userName} user using {providerName}. Please enter your ezBookkeeping password to verify."
+            "oauth2bindTip": "You're signing in to the {userName} user using {providerName}. Please enter your AbelFinance password to verify."
         }
     },
     "dataExport": {
@@ -1628,7 +1628,7 @@
     "Date is too early": "Дата занадто рання",
     "User Canceled": "User Canceled",
     "Welcome to ezBookkeeping": "Ласкаво просимо до ezBookkeeping",
-    "Please log in with your ezBookkeeping account": "Будь ласка, увійдіть до свого облікового запису ezBookkeeping",
+    "Please log in with your AbelFinance account": "Будь ласка, увійдіть до свого облікового запису ezBookkeeping",
     "Unlock Application": "Розблокувати застосунок",
     "Please enter your PIN code or use WebAuthn to unlock application": "Будь ласка, введіть PIN-код або скористайтеся WebAuthn для розблокування застосунку",
     "Please enter your PIN code to unlock application": "Будь ласка, введіть PIN-код для розблокування застосунку",

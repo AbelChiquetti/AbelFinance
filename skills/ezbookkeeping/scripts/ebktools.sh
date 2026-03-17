@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
-# ezBookkeeping API Tools
-# A command-line tool for calling ezBookkeeping APIs
+# AbelFinance API Tools
+# A command-line tool for calling AbelFinance APIs
 
 # API Configuration Structure
 API_CONFIGS='[
@@ -514,7 +514,7 @@ API_CONFIGS='[
   },
   {
     "Name": "server-version",
-    "Description": "Retrieve ezBookkeeping server version information",
+    "Description": "Retrieve AbelFinance server version information",
     "Method": "GET",
     "Path": "systems/version.json",
     "RequiresTimezone": false,
@@ -808,14 +808,14 @@ show_help() {
     cat <<-EOF
 ezBookkeeping API Tools
 
-A command-line tool for calling ezBookkeeping APIs
+A command-line tool for calling AbelFinance APIs
 
 Usage:
     ebktools.sh [--tz-name <name>] [--tz-offset <offset>] [--raw-response] <command> [command-options]
 
 Environment Variables (Required):
-    EBKTOOL_SERVER_BASEURL      ezBookkeeping server base URL (e.g., http://localhost:8080)
-    EBKTOOL_TOKEN               ezBookkeeping API token
+    EBKTOOL_SERVER_BASEURL      AbelFinance server base URL (e.g., http://localhost:8080)
+    EBKTOOL_TOKEN               AbelFinance API token
 
     You can also set the above environment variables in a '.env' file located in the current directory, parent directory or home directory.
 
@@ -950,7 +950,7 @@ call_api() {
 
     if [ -z "$serverBaseUrl" ]; then
         echo_red "Error: Environment variable 'EBKTOOL_SERVER_BASEURL' is not set."
-        echo "Please set it to your ezBookkeeping server base URL (e.g., http://localhost:8080)"
+        echo "Please set it to your AbelFinance server base URL (e.g., http://localhost:8080)"
         exit 1
     fi
 

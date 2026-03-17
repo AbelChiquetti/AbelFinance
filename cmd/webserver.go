@@ -35,7 +35,7 @@ var WebServer = &cli.Command{
 	Commands: []*cli.Command{
 		{
 			Name:   "run",
-			Usage:  "Run ezBookkeeping web server",
+			Usage:  "Run AbelFinance web server",
 			Action: bindAction(startWebServer),
 		},
 	},

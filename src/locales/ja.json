@@ -137,7 +137,7 @@
             "clearTransactionsInAccountTip": "You CANNOT undo this action. This will clear your transactions data in {account}. Please enter your current password to confirm.",
             "accountActivationAndResendValidationEmailTip": "アカウントの有効化リンクがメールアドレスに送信されました:{email}、メールが届かない場合はパスワードをもう一度入力して下のボタンをクリックして認証メールを再送信してください。",
             "resendValidationEmailTip": "メールが届かない場合は、パスワードをもう一度入力の上、以下のボタンをクリックして検証メールを再送信してください: {email}",
-            "oauth2bindTip": "You're signing in to the {userName} user using {providerName}. Please enter your ezBookkeeping password to verify."
+            "oauth2bindTip": "You're signing in to the {userName} user using {providerName}. Please enter your AbelFinance password to verify."
         }
     },
     "dataExport": {
@@ -1628,7 +1628,7 @@
     "Date is too early": "日付が早すぎます",
     "User Canceled": "User Canceled",
     "Welcome to ezBookkeeping": "ezBookkeepingへようこそ",
-    "Please log in with your ezBookkeeping account": "ezBookkeepingアカウントにログインしてください",
+    "Please log in with your AbelFinance account": "ezBookkeepingアカウントにログインしてください",
     "Unlock Application": "アプリのロックを解除",
     "Please enter your PIN code or use WebAuthn to unlock application": "PINコードを入力するか、ebAuthnを使用してアプリのロックを解除してください",
     "Please enter your PIN code to unlock application": "アプリのロックを解除するにはPINコードを入力してください",

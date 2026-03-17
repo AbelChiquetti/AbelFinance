@@ -137,7 +137,7 @@
             "clearTransactionsInAccountTip": "NO PUEDES deshacer esta acción. Se eliminarán todas las transacciones de {account}. Por favor introduce tu contraseña para confirmar.",
             "accountActivationAndResendValidationEmailTip": "El enlace de activación de la cuenta se envió a tu dirección de correo electrónico: {email}. Si no recibes el correo, introduce nuevamente la contraseña y haz clic en el botón de abajo para reenviar el correo de validación.",
             "resendValidationEmailTip": "Si no recibes el correo, introduce nuevamente la contraseña y haz clic en el botón de abajo para reenviar el correo de validación a: {email}",
-            "oauth2bindTip": "Estás iniciando sesión con el usuario {userName} usando {providerName}. Porfavor introduce tu contraseña de ezBookkeeping para verificar."
+            "oauth2bindTip": "Estás iniciando sesión con el usuario {userName} usando {providerName}. Porfavor introduce tu contraseña de AbelFinance para verificar."
         }
     },
     "dataExport": {
@@ -1628,7 +1628,7 @@
     "Date is too early": "La Fecha Es Demasiado Temprana",
     "User Canceled": "Usuario cancelado",
     "Welcome to ezBookkeeping": "Bienvenido a ezBookkeeping",
-    "Please log in with your ezBookkeeping account": "Inicia sesión con tu cuenta de ezBookkeeping",
+    "Please log in with your AbelFinance account": "Inicia sesión con tu cuenta de ezBookkeeping",
     "Unlock Application": "Desbloquear Aplicación",
     "Please enter your PIN code or use WebAuthn to unlock application": "Ingresa tu código PIN o utiliza WebAuthn para desbloquear la aplicación",
     "Please enter your PIN code to unlock application": "Ingrese tu código PIN para desbloquear la aplicación",

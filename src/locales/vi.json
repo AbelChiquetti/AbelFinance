@@ -137,7 +137,7 @@
             "clearTransactionsInAccountTip": "You CANNOT undo this action. This will clear your transactions data in {account}. Please enter your current password to confirm.",
             "accountActivationAndResendValidationEmailTip": "Liên kết kích hoạt tài khoản đã được gửi tới email của bạn: {email}. Nếu bạn không nhận được email, vui lòng nhập lại mật khẩu và nhấp nút bên dưới để gửi lại email xác nhận.",
             "resendValidationEmailTip": "Nếu bạn không nhận được email, vui lòng nhập lại mật khẩu và nhấp nút bên dưới để gửi lại email xác nhận tới: {email}",
-            "oauth2bindTip": "You're signing in to the {userName} user using {providerName}. Please enter your ezBookkeeping password to verify."
+            "oauth2bindTip": "You're signing in to the {userName} user using {providerName}. Please enter your AbelFinance password to verify."
         }
     },
     "dataExport": {
@@ -1628,7 +1628,7 @@
     "Date is too early": "Ngày quá sớm",
     "User Canceled": "User Canceled",
     "Welcome to ezBookkeeping": "Chào mừng đến với ezBookkeeping",
-    "Please log in with your ezBookkeeping account": "Vui lòng đăng nhập bằng tài khoản ezBookkeeping của bạn",
+    "Please log in with your AbelFinance account": "Vui lòng đăng nhập bằng tài khoản AbelFinance của bạn",
     "Unlock Application": "Mở khóa ứng dụng",
     "Please enter your PIN code or use WebAuthn to unlock application": "Vui lòng nhập mã PIN hoặc sử dụng WebAuthn để mở khóa ứng dụng",
     "Please enter your PIN code to unlock application": "Vui lòng nhập mã PIN để mở khóa ứng dụng",

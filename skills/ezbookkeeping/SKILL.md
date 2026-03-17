@@ -1,9 +1,9 @@
 ---
 name: ezbookkeeping
-description: Use ezBookkeeping API Tools script to record new transactions, query transactions, retrieve account information, retrieve categories, retrieve tags, and retrieve exchange rate data in the self hosted personal finance application ezBookkeeping.
+description: Use AbelFinance API Tools script to record new transactions, query transactions, retrieve account information, retrieve categories, retrieve tags, and retrieve exchange rate data in the self hosted personal finance application ezBookkeeping.
 ---
 
-# ezBookkeeping API Tools
+# AbelFinance API Tools
 
 ## Usage
 
@@ -57,8 +57,8 @@ The meanings of these environment variables are as follows:
 
 | Variable | Required | Description |
 | --- | --- | --- |
-| `EBKTOOL_SERVER_BASEURL` | Required | ezBookkeeping server base URL (e.g., `http://localhost:8080`) |
-| `EBKTOOL_TOKEN` | Required | ezBookkeeping API token |
+| `EBKTOOL_SERVER_BASEURL` | Required | AbelFinance server base URL (e.g., `http://localhost:8080`) |
+| `EBKTOOL_TOKEN` | Required | AbelFinance API token |
 
 ## Reference
 

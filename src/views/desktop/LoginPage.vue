@@ -24,7 +24,7 @@
                     <v-card variant="flat" class="w-100 mt-0 px-4 pt-12" max-width="500">
                         <v-card-text>
                             <h4 class="text-h4 mb-2">{{ tt('Welcome to ezBookkeeping') }}</h4>
-                            <p class="mb-0" v-if="isInternalAuthEnabled()">{{ tt('Please log in with your ezBookkeeping account') }}</p>
+                            <p class="mb-0" v-if="isInternalAuthEnabled()">{{ tt('Please log in with your AbelFinance account') }}</p>
                             <p class="mt-1 mb-0" v-if="tips">{{ tips }}</p>
                         </v-card-text>
 
